@@ -1,0 +1,12 @@
+#corpo-do-projeto {
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.barra-menu-principal {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
