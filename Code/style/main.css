@@ -1,13 +1,10 @@
 #corpo-do-projeto {
-    width: 90%;
+    width: 98%;
     margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.container-menu{
-    /*background-color:#051D3B;*/
-    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: solid 1px; /*Apenas para marcar a área*/
+    
 }
 
 .barra-menu-principal {
@@ -15,10 +12,34 @@
     text-align: center;
     justify-content: space-between;
     list-style: none;
+    background-color: #062540;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 0%;
+    padding-right: 0%;
+    
+    margin-top: 0.4%;
+}
+
+#li-caixa-de-busca {
+    border: none;
+    width: 40%;
+
 }
 
 #input-caixa-de-busca{
-    border: solid 1px;
+    border: none;
+    background-color: #2D415A;
     border-radius: 15px;
-    background-color:transparent;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    width: 95%;
 }
+
+::-webkit-input-placeholder {
+    color: #808D9C;
+ }
