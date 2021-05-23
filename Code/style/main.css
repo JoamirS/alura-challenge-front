@@ -1,12 +1,24 @@
 #corpo-do-projeto {
     width: 90%;
-    margin-top: 1%;
+    margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.container-menu{
+    /*background-color:#051D3B;*/
+    margin-top: 0%;
 }
 
 .barra-menu-principal {
     display: flex;
     text-align: center;
     justify-content: space-between;
+    list-style: none;
+}
+
+#input-caixa-de-busca{
+    border: solid 1px;
+    border-radius: 15px;
+    background-color:transparent;
 }
