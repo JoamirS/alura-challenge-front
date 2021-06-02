@@ -21,7 +21,7 @@
     padding-right: 0%;
     margin-top: 0.4%;
     margin-bottom: 0%;
-    -webkit-align-items: center;
+    align-items: center;
 }
 
 #li-logo-site-menu {
@@ -64,7 +64,7 @@
     width: 16.5%;
     margin-left: 5%;
     display: flex;
-    -webkit-align-items: center;
+    align-items: center;
  }
 
  #img-perfil-do-usuario {
