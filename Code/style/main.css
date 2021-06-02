@@ -6,7 +6,7 @@
     border: solid 1px; /*Apenas para marcar a área*/
 }
 
-.barra-menu-principal {
+.barra-menu-principal{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -21,7 +21,7 @@
     padding-right: 0%;
     margin-top: 0.4%;
     margin-bottom: 0%;
-    vertical-align: middle;
+    -webkit-align-items: center;
 }
 
 #li-logo-site-menu {
@@ -50,7 +50,7 @@
     padding-right: 1%;
     padding-left: 1%;
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     color: #808D9C;
     
@@ -63,10 +63,22 @@
  #foto-do-perfil-usuario {
     width: 16.5%;
     margin-left: 5%;
+    display: flex;
+    -webkit-align-items: center;
  }
 
  #img-perfil-do-usuario {
-    width: 50%;
+    width: 20%;
+    color: white;
+    padding-left: 25%;
+ }
+
+ #nome-do-perfil{
+    width: 20%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-left: 3%;
+    
  }
 
  .lista-menu-navegacao-esquerda {
@@ -80,7 +92,7 @@
 
  #texto-menu {
      color: white;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Inter', sans-serif;
  }
 
  #div-container-editor-de-codigo{
@@ -99,7 +111,7 @@
      color: white;
      width: 76%;
      margin-left: 2%;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Inter', sans-serif;
  }
 
  #div-container-comunidade {
@@ -116,5 +128,5 @@
     color: white;
     width: 76%;
     margin-left: 2%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
  }
